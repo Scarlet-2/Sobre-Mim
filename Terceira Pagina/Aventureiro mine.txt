@@ -1,0 +1,135 @@
+1:
+moveForward();
+moveForward();
+2:
+moveForward();
+moveForward();
+destroyBlock();
+3:
+moveForward();
+moveForward();
+shear();
+turnRight();
+moveForward();
+shear();
+4:
+moveForward();
+moveForward();
+moveForward();
+destroyBlock();
+turnLeft();
+moveForward();
+moveForward();
+moveForward();
+destroyBlock();
+turnLeft();
+moveForward();
+moveForward();
+moveForward();
+destroyBlock();
+5:
+for (var count = 0; count < 4; count++) {
+  placeBlock("planksBirch");
+  moveForward();
+}
+6:
+for (var count = 0; count < 3; count++) {
+  moveForward();
+  placeBlock("planksBirch");
+}
+turnRight();
+for (var count2 = 0; count2 < 3; count2++) {
+  moveForward();
+  placeBlock("planksBirch");
+}
+turnRight();
+for (var count3 = 0; count3 < 3; count3++) {
+  moveForward();
+  placeBlock("planksBirch");
+}
+7:
+for (var count = 0; count < 6; count++) {
+  plantCrop();
+  moveForward();
+}
+turnRight();
+moveForward();
+moveForward();
+turnRight();
+for (var count2 = 0; count2 < 6; count2++) {
+  moveForward();
+  plantCrop();
+}
+8:
+turnLeft();
+for (var count = 0; count < 3; count++) {
+  moveForward();
+}
+turnRight();
+moveForward();
+turnLeft();
+moveForward();
+turnRight();
+moveForward();
+9:
+turnLeft();
+destroyBlock();
+moveForward();
+destroyBlock();
+turnLeft();
+placeTorch();
+turnRight();
+moveForward();
+placeTorch();
+10:
+moveForward();
+placeBlockAhead("cobblestone");
+for (var count = 0; count < 2; count++) {
+  moveForward();
+}
+destroyBlock();
+moveForward();
+destroyBlock();
+11:
+for (var count = 0; count < 7; count++) {
+  destroyBlock();
+  ifLavaAhead(function() {
+    placeBlockAhead("cobblestone");
+  });
+  moveForward();
+}
+12:
+for (var count = 0; count < 3; count++) {
+  destroyBlock();
+  ifLavaAhead(function() {
+    placeBlockAhead("cobblestone");
+  });
+  moveForward();
+}
+turnRight();
+destroyBlock();
+for (var count2 = 0; count2 < 2; count2++) {
+  turnLeft();
+}
+for (var count3 = 0; count3 < 3; count3++) {
+  destroyBlock();
+  moveForward();
+}
+13:
+turnRight();
+for (var count = 0; count < 6; count++) {
+  placeBlock("rail");
+  moveForward();
+}
+placeBlock("rail");
+turnRight();
+for (var count2 = 0; count2 < 6; count2++) {
+  placeBlock("rail");
+  moveForward();
+}
+14:
+for (var count = 0; count < 3; count++) {
+  moveForward();
+}
+turnRight();
+destroyBlock();
