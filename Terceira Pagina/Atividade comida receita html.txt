@@ -1,4 +1,0 @@
-criar 6 paginas contendo uma comida de preferencia
-3 devem ser comidas conhecidas 
-3 devem ser comidas desconhecidas
-deve conter imagem, titulo e receita
